@@ -1,0 +1,6 @@
+Spring JMS provider annotation based JMS ApI for send and receiving the message.
+To enable the JMS in any Spring application we have to annotate SpringBootMain class with @EnableJMS
+Queue information can be fetched from application properties
+We have to use Spring -> JmsTemplate which provide for sending the message. Check MessageSender class
+For listening the message annotate the Listener class method with @JmsListener providing the queue name
+and that's it.
